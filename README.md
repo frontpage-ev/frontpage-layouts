@@ -15,8 +15,8 @@ You will need [Node.js](https://nodejs.org) (16.x LTS tested) and [git](https://
 Next, clone the `build` branch of this repository into the NodeCG `bundles` folder and install the dependencies:
 > ```
 > cd bundles
-> git clone https://github.com/esamarathon/esa-layouts.git --branch build
-> cd esa-layouts
+> git clone https://github.com/frontpage-ev/frontpage-layouts.git --branch build
+> cd frontpage-layouts
 > npm install --production
 > ```
 
@@ -26,7 +26,7 @@ You will probably also want a default configuration you can fill in, which can b
 Then, to get the most recent changes for [nodecg-speedcontrol](https://github.com/speedcontrol/nodecg-speedcontrol), clone the `build` branch and install dependencies, similar to above:
 > ```
 > cd ..
-> git clone https://github.com/speedcontrol/nodecg-speedcontrol.git --branch build
+> git clone https://github.com/frontpage-ev/nodecg-speedcontrol --branch build
 > cd nodecg-speedcontrol
 > npm install --production
 > ```
